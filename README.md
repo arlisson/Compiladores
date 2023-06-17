@@ -20,9 +20,9 @@ O trabalho foi uma oportunidade para aplicar os conhecimentos teóricos adquirid
 
 No final, o resultado obtido foi um compilador eficiente e robusto, capaz de receber descrições de cartas Yu-Gi-Oh! e gerar o código HTML correspondente, possibilitando a visualização das informações das cartas em um formato adequado para exibição em um navegador web.
 
-## Sobre a Línguagem
+## Sobre a linguagem
 
-A línguagem desenvolvida é bem simples, é uma línguagem de descrição, não é possível realizaar operações matemátcas, nem comparações, ou outras operações lógicas. A ideia é que o usuário apenas descreva as especificações de uma carta de Yu-Gi-Oh! e a partiri disso, a carta seja gerada como saída em um arquivo HTML.
+A linguagem desenvolvida é bem simples, é uma linguagem de descrição, não é possível realizaar operações matemátcas, nem comparações, ou outras operações lógicas. A ideia é que o usuário apenas descreva as especificações de uma carta de Yu-Gi-Oh! e a partiri disso, a carta seja gerada como saída em um arquivo HTML.
 
 ## Sobre cartas do jogo Yu-Gi-Oh!
 ### Exemplo de uma carta de monstro
@@ -35,6 +35,38 @@ A línguagem desenvolvida é bem simples, é uma línguagem de descrição, não
 ![Carta magica](https://github.com/arlisson/Compiladores/blob/main/assets/Polymerization.png)
 
 #### Uma carta de magia/armadilha é semelhante a uma carta de monstro, porém não possui nível, nem tipo, nem pontos de ataque ou defesa. Além disso seu atributo é fixo, e não varia como o de um monstro.
+
+## Regras da linguagem
+
+Como dito anteriormente a linguagem é uma linguagem de definição, mas mesmo assim não está isenta de regras.
+### Declaração de cartas
+#### Carta de Monstro
+- CARTA-MONSTRO: TIPO-DO-MONSTRO(SEMPR EEM LETRAS MAIÚSCULAS); /*não se esqueça do ';' no final de cada linha de comando*/
+  
+	NOME: "Nome do monstro" (sempre entre aspas duplas); /*não se esqueça do ';' no final de cada linha de comando*/
+
+	LEVEL: (um número inteiro maior do que 0 e menor ou igual a 12); /*não se esqueça do ';' no final de cada linha de comando*/
+
+	ATRIBUTO: ATRIBUTO DO MONSTRO (UM DOS CINCO ATRIBUTOS POSSÍVEIS, SEMPRE ME MAIÚSCULO); /*não se esqueça do ';' no final de cada linha de comando*/
+
+	TIPO: DRAGÃO (UM DOS MUITOS TIPOS POSSÍVEIS, SEMPRE EM MAIÚSUCULO);	/*não se esqueça do ';' no final de cada linha de comando*/
+
+	ATAQUE: 3000 (Um número inteiro maior ou igual a 0 e menor ou igual a 999999); /*não se esqueça do ';' no final de cada linha de comando*/
+
+	DEFESA: 2500 (Um número inteiro maior ou igual a 0 e menor ou igual a 999999); /*não se esqueça do ';' no final de cada linha de comando*/
+
+	DESCRICAO: "Descrição da carta" (sempre entre aspas duplas); /*não se esqueça do ';' no final de cada linha de comando*/
+
+	IMAGEM: "imagem.jpg" (sempre entre aspas duplas); /*não se esqueça do ';' no final de cada linha de comando*/
+
+#### Carta mágica/aramdilha
+- CARTA-MAGICA: MAGIA-NORMAL;
+  
+	NOME: "Espadas da Luz Reveladora";
+
+	DESCRICAO: "Descrição da carta";
+
+	IMAGEM: "reveladora.jpg";
 
 
 
