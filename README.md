@@ -19,3 +19,12 @@ Uma vez que as descrições das cartas são corretamente processadas e validadas
 O trabalho foi uma oportunidade para aplicar os conhecimentos teóricos adquiridos na disciplina de Compiladores em um projeto prático e relevante. Além disso, permitiu explorar as capacidades da linguagem Java e da ferramenta ANTLR4 na implementação de um compilador funcional.
 
 No final, o resultado obtido foi um compilador eficiente e robusto, capaz de receber descrições de cartas Yu-Gi-Oh! e gerar o código HTML correspondente, possibilitando a visualização das informações das cartas em um formato adequado para exibição em um navegador web.
+
+## Sobre a Línguagem
+
+A línguagem desenvolvida é bem simples, é uma línguagem de descrição, não é possível realizaar operações matemátcas, nem comparações, ou outras operações lógicas. A ideia é que o usuário apenas descreva as especificações de uma carta de Yu-Gi-Oh! e a partiri disso, a carta seja gerada como saída em um arquivo HTML.
+
+## Sobre cartas do jogo Yu-Gi-Oh!
+![Atributos de uma carta de monstro](https://github.com/arlisson/Compiladores/blob/main/assets/carta.png)
+
+
