@@ -1,0 +1,24 @@
+CRIAR_CARTA:
+	
+	
+	CARTA-MONSTRO: MONSTRO-NORMAL;
+	NOME: "Dragão branco de olhos azuis";
+	LEVEL: 8;
+	ATRIBUTO: LUZ;
+	TIPO: DRAGÃO;	
+	ATAQUE: 3000;
+	DEFESA: 2500;
+	DESCRICAO: "Este lendário dragão é uma poderosa máquina de destruição. Praticamente invencível, muito poucos enfrentaram essa magnifica criatura e viveram para contar a história.";
+	IMAGEM: "dragao.jpg";
+	
+	/*
+	CARTA-MAGICA: MAGIA-NORMAL;
+	NOME: "Espadas da Luz Reveladora";
+	DESCRICAO: "Depois da ativação deste card, ele permanece no campo, mas destrua-o durante a Fase Final do 3º turno do seu oponente. Quando este card for ativado: se seu oponente controlar um monstro com a face para baixo, vire com a face para cima todos os monstros que ele controla. Enquanto este card estiver com a face para cima no campo, os monstros do seu oponente não podem declarar um ataque.";
+	IMAGEM: "reveladora.jpg";
+	*/
+	
+	
+	
+
+FIM_CRIAR_CARTA;
