@@ -49,7 +49,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        body {\n" +
-"            background-image: url('yugioh.jpg');\n" +
+"            background-image: url('imagens_site/yugioh.jpg');\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-size: cover;\n" +
 "            position: absolute;\n" +
@@ -103,7 +103,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_monster_effect {\n" +
-"            background-image: url(\"monster_effect.jpg\");\n" +
+"            background-image: url(\"imagens_site/monster_effect.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -116,7 +116,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_monster_normal {\n" +
-"            background-image: url(\"fundo_normal.jpg\");\n" +
+"            background-image: url(\"imagens_site/fundo_normal.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -129,7 +129,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_monster_fusion {\n" +
-"            background-image: url(\"fundo_fusao.jpg\");\n" +
+"            background-image: url(\"imagens_site/fundo_fusao.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -142,7 +142,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_monster_sincro {\n" +
-"            background-image: url(\"synchro.jpg\");\n" +
+"            background-image: url(\"imagens_site/synchro.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -155,7 +155,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_monster_xyz {\n" +
-"            background-image: url(\"fundo_xyz.jpg\");\n" +
+"            background-image: url(\"imagens_site/fundo_xyz.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -168,7 +168,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_monster_ritual {\n" +
-"            background-image: url(\"fundo_ritual.jpg\");\n" +
+"            background-image: url(\"imagens_site/fundo_ritual.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -181,7 +181,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_normal_spell {\n" +
-"            background-image: url(\"fundo_spell.jpg\");\n" +
+"            background-image: url(\"imagens_site/fundo_spell.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -194,7 +194,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_spell_continuous {\n" +
-"            background-image: url(\"fundo_spell.jpg\");\n" +
+"            background-image: url(\"imagens_site/fundo_spell.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -207,7 +207,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_spell_equip {\n" +
-"            background-image: url(\"fundo_spell.jpg\");\n" +
+"            background-image: url(\"imagens_site/fundo_spell.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -220,7 +220,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_spell_field {\n" +
-"            background-image: url(\"fundo_spell.jpg\");\n" +
+"            background-image: url(\"imagens_site/fundo_spell.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -233,7 +233,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_spell_quick {\n" +
-"            background-image: url(\"fundo_spell.jpg\");\n" +
+"            background-image: url(\"imagens_site/fundo_spell.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -246,7 +246,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_spell_ritual {\n" +
-"            background-image: url(\"fundo_spell.jpg\");\n" +
+"            background-image: url(\"imagens_site/fundo_spell.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -259,7 +259,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_normal_trap {\n" +
-"            background-image: url(\"fundo_trap.jpg\");\n" +
+"            background-image: url(\"imagens_site/fundo_trap.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -272,7 +272,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_counter_trap {\n" +
-"            background-image: url(\"fundo_trap.jpg\");\n" +
+"            background-image: url(\"imagens_site/fundo_trap.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -285,7 +285,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_continuous_trap {\n" +
-"            background-image: url(\"fundo_trap.jpg\");\n" +
+"            background-image: url(\"imagens_site/fundo_trap.jpg\");\n" +
 "            background-repeat: no-repeat;\n" +
 "            background-position: center;\n" +
 "            background-size: cover;\n" +
@@ -602,48 +602,48 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
             
             switch(ctx.atributo.get(i).getText()){
                 case "TREVAS":
-                    saida.append("<img src=\"trevas.jpg\" width=\" 25px\">\n" +
+                    saida.append("<img src=\"imagens_site/trevas.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>");
                     break;
                     
                 case "FOGO":
-                    saida.append("<img src=\"fogo.jpg\" width=\" 25px\">\n" +
+                    saida.append("<img src=\"imagens_site/fogo.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>");
                     break;
                 case "TERRA":
-                    saida.append("<img src=\"terra.jpg\" width=\" 25px\">\n" +
+                    saida.append("<img src=\"imagens_site/terra.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>");
                     break;
                     
                 case "LUZ":
-                    saida.append("<img src=\"luz.jpg\" width=\" 25px\">\n" +
+                    saida.append("<img src=\"imagens_site/luz.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>");
                     break;
                     
                 case "VENTO":
-                    saida.append("<img src=\"vento.jpg\" width=\" 25px\">\n" +
+                    saida.append("<img src=\"imagens_site/vento.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>");
                     break;  
                     
                 case "AGUA":
-                    saida.append("<img src=\"agua.jpg\" width=\" 25px\">\n" +
+                    saida.append("<img src=\"imagens_site/agua.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>");
                     break;
                  
                 case "DIVINO":
-                    saida.append("<img src=\"divino.jpg\" width=\" 25px\">\n" +
+                    saida.append("<img src=\"imagens_site/divino.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>");
@@ -659,11 +659,11 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
             }
             if(ctx.tipo_carta.get(i).getText().equals("MONSTRO-XYZ")||ctx.tipo_carta.get(i).getText().equals("MONSTRO-XYZ-EFEITO")){
                 for(int j =0;j<Integer.parseInt(ctx.level.get(i).getText());j++){
-                    saida.append(" <img src=\"rank.jpg\" style=\"width: 20px;\">");
+                    saida.append(" <img src=\"imagens_site/rank.jpg\" style=\"width: 20px;\">");
                 }
             }else{
                for(int j =0;j<Integer.parseInt(ctx.level.get(i).getText());j++){
-                saida.append(" <img src=\"Level.jpg\" style=\"width: 20px;\">");
+                saida.append(" <img src=\"imagens_site/Level.jpg\" style=\"width: 20px;\">");
                 } 
             }
             
@@ -677,7 +677,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -700,7 +700,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -723,7 +723,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -746,7 +746,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -770,7 +770,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -794,7 +794,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -817,7 +817,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -840,7 +840,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -863,7 +863,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -886,7 +886,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -919,7 +919,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "                        <p class=\"pname\">"+ctx.magic_mone.get(i).getText().replace("\"","")+"</p>\n" +
 "                    </div>\n" +
 "                    <div class=\"profile_right\">\n" +
-"                        <img src=\"SPELL.jpg\" width=\" 25px\">\n" +
+"                        <img src=\"imagens_site/SPELL.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>\n" +
@@ -929,7 +929,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -953,20 +953,20 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "                        <p class=\"pname\">"+ctx.magic_mone.get(i).getText().replace("\"","")+"</p>\n" +
 "                    </div>\n" +
 "                    <div class=\"profile_right\">\n" +
-"                        <img src=\"SPELL.jpg\" width=\" 25px\">\n" +
+"                        <img src=\"imagens_site/SPELL.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_level\">\n" +
 "                <h4 class=\"profile_spell\">]</h4>\n" +
-"                <img src=\"Continuous.jpg\" width=\" 20px\">\n" +
+"                <img src=\"imagens_site/Continuous.jpg\" width=\" 20px\">\n" +
 "                <h4 class=\"profile_spell\">[SPELL CARD</h4>\n" +
 "\n" +
 "            </div>\n" +
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -990,20 +990,20 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "                        <p class=\"pname\">"+ctx.magic_mone.get(i).getText().replace("\"","")+"</p>\n" +
 "                    </div>\n" +
 "                    <div class=\"profile_right\">\n" +
-"                        <img src=\"SPELL.jpg\" width=\" 25px\">\n" +
+"                        <img src=\"imagens_site/SPELL.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_level\">\n" +
 "                <h4 class=\"profile_spell\">]</h4>\n" +
-"                <img src=\"Equip.jpg\" width=\" 20px\">\n" +
+"                <img src=\"imagens_site/Equip.jpg\" width=\" 20px\">\n" +
 "                <h4 class=\"profile_spell\">[SPELL CARD</h4>\n" +
 "\n" +
 "            </div>\n" +
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -1025,20 +1025,20 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "                        <p class=\"pname\">"+ctx.magic_mone.get(i).getText().replace("\"","")+"</p>\n" +
 "                    </div>\n" +
 "                    <div class=\"profile_right\">\n" +
-"                        <img src=\"SPELL.jpg\" width=\" 25px\">\n" +
+"                        <img src=\"imagens_site/SPELL.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_level\">\n" +
 "                <h4 class=\"profile_spell\">]</h4>\n" +
-"                <img src=\"Field.jpg\" width=\" 20px\">\n" +
+"                <img src=\"imagens_site/Field.jpg\" width=\" 20px\">\n" +
 "                <h4 class=\"profile_spell\">[SPELL CARD</h4>\n" +
 "\n" +
 "            </div>\n" +
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -1063,20 +1063,20 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "                        <p class=\"pname\">"+ctx.magic_mone.get(i).getText().replace("\"","")+"</p>\n" +
 "                    </div>\n" +
 "                    <div class=\"profile_right\">\n" +
-"                        <img src=\"SPELL.jpg\" width=\" 25px\">\n" +
+"                        <img src=\"imagens_site/SPELL.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_level\">\n" +
 "                <h4 class=\"profile_spell\">]</h4>\n" +
-"                <img src=\"Ritual.jpg\" width=\" 20px\">\n" +
+"                <img src=\"imagens_site/Ritual.jpg\" width=\" 20px\">\n" +
 "                <h4 class=\"profile_spell\">[SPELL CARD</h4>\n" +
 "\n" +
 "            </div>\n" +
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -1100,20 +1100,20 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "                        <p class=\"pname\">"+ctx.magic_mone.get(i).getText().replace("\"","")+"</p>\n" +
 "                    </div>\n" +
 "                    <div class=\"profile_right\">\n" +
-"                        <img src=\"SPELL.jpg\" width=\" 25px\">\n" +
+"                        <img src=\"imagens_site/SPELL.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_level\">\n" +
 "                <h4 class=\"profile_spell\">]</h4>\n" +
-"                <img src=\"Quick.jpg\" width=\" 20px\">\n" +
+"                <img src=\"imagens_site/Quick.jpg\" width=\" 20px\">\n" +
 "                <h4 class=\"profile_spell\">[SPELL CARD</h4>\n" +
 "\n" +
 "            </div>\n" +
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -1139,7 +1139,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "                        <p class=\"pname\">"+ctx.magic_mone.get(i).getText().replace("\"","")+"</p>\n" +
 "                    </div>\n" +
 "                    <div class=\"profile_right\">\n" +
-"                        <img src=\"Trap.jpg\" width=\" 25px\">\n" +
+"                        <img src=\"imagens_site/Trap.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>\n" +
@@ -1150,7 +1150,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -1173,20 +1173,20 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "                        <p class=\"pname\">"+ctx.magic_mone.get(i).getText().replace("\"","")+"</p>\n" +
 "                    </div>\n" +
 "                    <div class=\"profile_right\">\n" +
-"                        <img src=\"Trap.jpg\" width=\" 25px\">\n" +
+"                        <img src=\"imagens_site/Trap.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_level\">\n" +
 "                <h4 class=\"profile_spell\">]</h4>\n" +
-"                <img src=\"Continuous.jpg\" width=\" 20px\">\n" +
+"                <img src=\"imagens_site/Continuous.jpg\" width=\" 20px\">\n" +
 "                <h4 class=\"profile_spell\">[TRAP CARD</h4>\n" +
 "\n" +
 "            </div>\n" +
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
@@ -1210,20 +1210,20 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "                        <p class=\"pname\">"+ctx.magic_mone.get(i).getText().replace("\"","")+"</p>\n" +
 "                    </div>\n" +
 "                    <div class=\"profile_right\">\n" +
-"                        <img src=\"Trap.jpg\" width=\" 25px\">\n" +
+"                        <img src=\"imagens_site/Trap.jpg\" width=\" 25px\">\n" +
 "                    </div>\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_level\">\n" +
 "                <h4 class=\"profile_spell\">]</h4>\n" +
-"                <img src=\"Counter.jpg\" width=\" 20px\">\n" +
+"                <img src=\"imagens_site/Counter.jpg\" width=\" 20px\">\n" +
 "                <h4 class=\"profile_spell\">[TRAP CARD</h4>\n" +
 "\n" +
 "            </div>\n" +
 "\n" +
 "            <div class=\"profile_img\">\n" +
 "                <div class=\"profile-img\">\n" +
-"                    <img src=\""+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
+"                    <img src=\"imagens/"+ctx.magic_png.get(i).getText().replace("\"","")+"\" width=\"100%\">\n" +
 "                </div>\n" +
 "            </div>\n" +
 "            <div class=\"profile_desc\">\n" +
