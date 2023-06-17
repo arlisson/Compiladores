@@ -25,6 +25,16 @@ No final, o resultado obtido foi um compilador eficiente e robusto, capaz de rec
 A línguagem desenvolvida é bem simples, é uma línguagem de descrição, não é possível realizaar operações matemátcas, nem comparações, ou outras operações lógicas. A ideia é que o usuário apenas descreva as especificações de uma carta de Yu-Gi-Oh! e a partiri disso, a carta seja gerada como saída em um arquivo HTML.
 
 ## Sobre cartas do jogo Yu-Gi-Oh!
+### Exemplo de uma carta de monstro
 ![Atributos de uma carta de monstro](https://github.com/arlisson/Compiladores/blob/main/assets/carta.png)
+
+#### Existem alguns monstros especiais, como os monstros XYZ, que possuem rank no lugar do nível, mas é apenas uma mudança visual e gramátical.
+
+
+### Exemplo de uma carta de magia/armadilha
+![Carta magica](https://github.com/arlisson/Compiladores/blob/main/assets/Polymerization.png)
+
+#### Uma carta de magia/armadilha é semelhante a uma carta de monstro, porém não possui nível, nem tipo, nem pontos de ataque ou defesa. Além disso seu atributo é fixo, e não varia como o de um monstro.
+
 
 
