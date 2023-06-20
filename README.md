@@ -22,7 +22,7 @@ No final, o resultado obtido foi um compilador eficiente e robusto, capaz de rec
 
 ## Sobre a linguagem
 
-A linguagem desenvolvida é bem simples, é uma linguagem de descrição, não é possível realizaar operações matemátcas, nem comparações, ou outras operações lógicas. A ideia é que o usuário apenas descreva as especificações de uma carta de Yu-Gi-Oh! e a partiri disso, a carta seja gerada como saída em um arquivo HTML.
+A linguagem desenvolvida é bem simples, é uma linguagem de descrição, não é possível realizaar operações matemátcas, nem comparações, ou outras operações lógicas. A ideia é que o usuário apenas descreva as especificações de uma carta de Yu-Gi-Oh! e a partiri disso, a carta seja gerada como saída em um arquivo HTML. Um exemplo de como a línguagem foi construída pode ser encontrado aqui -> [Clique aqui](https://youtube.com/shorts/n0RNu00eUxw?feature=share). Casso o link anterior não tenha te levado para o lugar certo, tente esse: [Parser.g4](https://github.com/arlisson/Compiladores/blob/main/Yugioh_Parser/src/main/antlr4/br/edu/iff/ec/compiladores/yugioh_parser/Parser.g4)
 
 ## Sobre cartas do jogo Yu-Gi-Oh!
 ### Exemplo de uma carta de monstro
