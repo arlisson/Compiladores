@@ -84,6 +84,8 @@ Com as pastas baixadas no computador, siga o caminho: **Yugioh_Parser/target/Yug
 
 Abra o prompt de comandos do windows verifique a versão do Java utilizando *java -version*, caso seja uma versão diferente da **20.0.1**, instale a versão mencionada. Após ter o java devidamente atualizado, digite no prompt de comando java -jar (diretório completo do arquivo: Yugioh_Parser-1.0-SNAPSHOT-jar-with-dependencies.jar) (diretório completo do arquivo: Exemplo_codigo.txt) (diretório completo do arquivo: saida.HTML)
 
+### É importante dizer que, o arquivo saída.HTML, pode ter qualquer nome, porém, ele deve estar sempre dentro da pasta Yugioh
+
 
 
 
