@@ -38,6 +38,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "        p {\n" +
 "            text-align: justify;\n" +
+"\n" +
 "        }\n" +
 "\n" +
 "        .container {\n" +
@@ -50,7 +51,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "\n" +
 "        body {\n" +
 "            background-image: url('imagens_site/yugioh.jpg');\n" +
-"            background-repeat: no-repeat;\n" +
+"            background-repeat: repeat;\n" +
 "            background-size: cover;\n" +
 "            position: absolute;\n" +
 "            height: 100%;\n" +
@@ -302,21 +303,24 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "            font-size: 20px;\n" +
 "            white-space: nowrap;\n" +
 "            font-weight: bold;\n" +
-"            text-align: center;\n" +
+"            text-align: center center;\n" +
 "            color: #000;\n" +
-"            align-items: center;\n" +
+"            align-items: center center;\n" +
+"            transform: scaleY(4);\n" +
+"            transform-origin: top;\n" +
 "\n" +
 "        }\n" +
 "\n" +
 "        .pname_xyz {\n" +
-"            font-weight: bold;\n" +
-"            color: #fff;\n" +
 "            display: flex;\n" +
 "            font-size: 20px;\n" +
 "            white-space: nowrap;\n" +
-"            text-align: center;\n" +
-"            align-items: center;\n" +
-"\n" +
+"            font-weight: bold;\n" +
+"            text-align: center center;\n" +
+"            color: #fff;\n" +
+"            align-items: center center;\n" +
+"            transform: scaleY(4);\n" +
+"            transform-origin: top;\n" +
 "        }\n" +
 "\n" +
 "        .pname_fusion {\n" +
@@ -324,9 +328,11 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "            font-size: 20px;\n" +
 "            white-space: nowrap;\n" +
 "            font-weight: bold;\n" +
-"            text-align: center;\n" +
+"            text-align: center center;\n" +
 "            color: #000;\n" +
-"            align-items: center;\n" +
+"            align-items: center center;\n" +
+"            transform: scaleY(4);\n" +
+"            transform-origin: top;\n" +
 "        }\n" +
 "\n" +
 "        .pname_ritual {\n" +
@@ -334,9 +340,11 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "            font-size: 20px;\n" +
 "            white-space: nowrap;\n" +
 "            font-weight: bold;\n" +
-"            text-align: center;\n" +
+"            text-align: center center;\n" +
 "            color: #000;\n" +
-"            align-items: center;\n" +
+"            align-items: center center;\n" +
+"            transform: scaleY(4);\n" +
+"            transform-origin: top;\n" +
 "        }\n" +
 "\n" +
 "        .profile-name {\n" +
@@ -355,7 +363,9 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "            text-transform: uppercase;\n" +
 "            overflow: hidden;\n" +
 "\n" +
+"\n" +
 "        }\n" +
+"\n" +
 "\n" +
 "        .profile_left {\n" +
 "            width: 80%;\n" +
@@ -405,8 +415,11 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        .profile-img {\n" +
 "            border-radius: 0px;\n" +
 "            overflow: hidden;\n" +
-"            padding: 2px;\n" +
-"            background: rgba(0, 0, 0, 0.6);\n" +
+"            padding-left: 5px;\n" +
+"            padding-top: 5px;\n" +
+"            padding-right: 5px;\n" +
+"            padding-bottom: 1px;\n" +
+"            background: rgb(54, 53, 53);\n" +
 "            margin: 7px 7px;\n" +
 "\n" +
 "        }\n" +
@@ -428,7 +441,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_desc h4 {\n" +
-"            font-size: 13px;\n" +
+"            font-size: 12px;\n" +
 "            font-weight: bold;\n" +
 "            position: relative;\n" +
 "        }\n" +
@@ -1241,92 +1254,153 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
         
          saida.append("  </div>\n" +
 "\n" +
-"        </div>\n" +
-"    </div><script>\n" +
-"        const containers = document.querySelectorAll('.profile_name');\n" +
-"        const texts = document.querySelectorAll('.pname');\n" +
+"                                                    </div>\n" +
+"                                                </div>\n" +
+"                                                <script>\n" +
+"                                                    const containers = document.querySelectorAll('.profile_name');\n" +
+"                                                    const texts = document.querySelectorAll('.pname');\n" +
 "\n" +
-"        texts.forEach((text, index) => {\n" +
-"            const container = containers[index];\n" +
+"                                                    texts.forEach((text, index) => {\n" +
+"                                                        const container = containers[index];\n" +
 "\n" +
-"            while ( text.scrollWidth > (container.offsetWidth) - 21.5) {\n" +
-"                let fontSize = parseInt(window.getComputedStyle(text).fontSize);\n" +
-"                fontSize -= 3.0001;\n" +
-"                text.style.fontSize = `${fontSize}px`;\n" +
-"            }\n" +
-"        });\n" +
+"                                                        const adjustTextSize = () => {\n" +
+"                                                            const containerHeight = container.offsetHeight;\n" +
+"                                                            const textHeight = text.offsetHeight;\n" +
 "\n" +
-"        const xyz = document.querySelectorAll('.profile_name');\n" +
-"        const xyztext = document.querySelectorAll('.pname_xyz');\n" +
+"                                                            text.style.fontSize = 'initial'; // Redefine o tamanho da fonte para o tamanho inicial\n" +
+"                                                            text.style.transform = 'scaleY(4)'; // Redefine a transformação scaleY para o valor inicial\n" +
 "\n" +
-"        xyztext.forEach((text, index) => {\n" +
-"            const container = xyz[index];\n" +
+"                                                            while (text.scrollWidth > container.offsetWidth - 22) {\n" +
+"                                                                let fontSize = parseInt(window.getComputedStyle(text).fontSize);\n" +
+"                                                                fontSize -= 2;\n" +
+"                                                                text.style.fontSize = `${fontSize}px`;\n" +
+"                                                            }\n" +
 "\n" +
-"            while ( text.scrollWidth > (container.offsetWidth)- 21.5) {\n" +
-"                let fontSize = parseInt(window.getComputedStyle(text).fontSize);\n" +
-"                fontSize -= 3.0001;\n" +
-"                text.style.fontSize = `${fontSize}px`;\n" +
-"            }\n" +
-"        });\n" +
+"                                                            const newHeight = containerHeight / textHeight;\n" +
+"                                                            text.style.transform = `scaleY(${newHeight + 0.7})`; // Ajusta o scaleY proporcionalmente\n" +
+"                                                        };\n" +
 "\n" +
+"                                                        adjustTextSize(); // Ajusta o tamanho do texto inicialmente\n" +
 "\n" +
-"        const fusion = document.querySelectorAll('.profile_name');\n" +
-"        const fusiontext = document.querySelectorAll('.pname_fusion');\n" +
-"\n" +
-"        fusiontext.forEach((text, index) => {\n" +
-"            const container = fusion[index];\n" +
-"\n" +
-"            while ( text.scrollWidth > (container.offsetWidth)- 21.5) {\n" +
-"                let fontSize = parseInt(window.getComputedStyle(text).fontSize);\n" +
-"                fontSize -= 3.0001;\n" +
-"                text.style.fontSize = `${fontSize}px`;\n" +
-"            }\n" +
-"        });\n" +
-"\n" +
-"        const ritual = document.querySelectorAll('.profile_name');\n" +
-"        const ritualtext = document.querySelectorAll('.pname_ritual');\n" +
-"\n" +
-"        ritualtext.forEach((text, index) => {\n" +
-"            const container = ritual[index];\n" +
-"\n" +
-"            while ( text.scrollWidth > (container.offsetWidth)- 21.5) {\n" +
-"                let fontSize = parseInt(window.getComputedStyle(text).fontSize);\n" +
-"                fontSize -= 3.0001;\n" +
-"                text.style.fontSize = `${fontSize}px`;\n" +
-"            }\n" +
-"        });\n" +
+"                                                        // Verifica se o tamanho do texto precisa ser ajustado ao redimensionar a janela\n" +
+"                                                        window.addEventListener('resize', adjustTextSize);\n" +
+"                                                    });\n" +
 "\n" +
 "\n" +
-"        const profileDescs = document.querySelectorAll('.profile_desc');\n" +
-"        let maxHeight = 0;\n" +
+"                                                    const containers_xyz = document.querySelectorAll('.profile_name');\n" +
+"                                                    const texts_xyz = document.querySelectorAll('.pname_xyz');\n" +
 "\n" +
-"        profileDescs.forEach((desc) => {\n" +
-"            const text = desc.querySelector('.profile-desc');\n" +
-"            const textHeight = text.clientHeight;\n" +
+"                                                    texts_xyz.forEach((text, index) => {\n" +
+"                                                        const container = containers_xyz[index];\n" +
 "\n" +
-"            if (textHeight > maxHeight) {\n" +
-"                maxHeight = textHeight;\n" +
-"            }\n" +
-"        });\n" +
+"                                                        const adjustTextSize = () => {\n" +
+"                                                            const containerHeight = container.offsetHeight;\n" +
+"                                                            const textHeight = text.offsetHeight;\n" +
 "\n" +
-"        profileDescs.forEach((desc) => {\n" +
-"            desc.style.height = `${maxHeight + 30}px`;\n" +
-"        });" +
+"                                                            text.style.fontSize = 'initial';\n" +
+"                                                            text.style.transform = 'scaleY(4)';\n" +
+"\n" +
+"                                                            while (text.scrollWidth > container.offsetWidth - 22) {\n" +
+"                                                                let fontSize = parseInt(window.getComputedStyle(text).fontSize);\n" +
+"                                                                fontSize -= 2;\n" +
+"                                                                text.style.fontSize = `${fontSize}px`;\n" +
+"                                                            }\n" +
+"\n" +
+"                                                            const newHeight = containerHeight / textHeight;\n" +
+"                                                            text.style.transform = `scaleY(${newHeight + 0.7})`;\n" +
+"                                                        };\n" +
+"\n" +
+"                                                        adjustTextSize();\n" +
+"                                                        window.addEventListener('resize', adjustTextSize);\n" +
+"                                                    });\n" +
 "\n" +
 "\n" +
 "\n" +
+"                                                    const containers_fusion = document.querySelectorAll('.profile_name');\n" +
+"                                                    const texts_fusion = document.querySelectorAll('.pname_fusion');\n" +
+"\n" +
+"                                                    texts_fusion.forEach((text, index) => {\n" +
+"                                                        const container = containers_fusion[index];\n" +
+"\n" +
+"                                                        const adjustTextSize = () => {\n" +
+"                                                            const containerHeight = container.offsetHeight;\n" +
+"                                                            const textHeight = text.offsetHeight;\n" +
+"\n" +
+"                                                            text.style.fontSize = 'initial';\n" +
+"                                                            text.style.transform = 'scaleY(4)';\n" +
+"\n" +
+"                                                            while (text.scrollWidth > container.offsetWidth - 22) {\n" +
+"                                                                let fontSize = parseInt(window.getComputedStyle(text).fontSize);\n" +
+"                                                                fontSize -= 2;\n" +
+"                                                                text.style.fontSize = `${fontSize}px`;\n" +
+"                                                            }\n" +
+"\n" +
+"                                                            const newHeight = containerHeight / textHeight;\n" +
+"                                                            text.style.transform = `scaleY(${newHeight + 0.7})`;\n" +
+"                                                        };\n" +
+"\n" +
+"                                                        adjustTextSize();\n" +
+"                                                        window.addEventListener('resize', adjustTextSize);\n" +
+"                                                    });\n" +
 "\n" +
 "\n" +
-"    </script>\n" +
+"                                                    const containers_ritual = document.querySelectorAll('.profile_name');\n" +
+"                                                    const texts_ritual = document.querySelectorAll('.pname_ritual');\n" +
+"\n" +
+"                                                    texts_ritual.forEach((text, index) => {\n" +
+"                                                        const container = containers_ritual[index];\n" +
+"\n" +
+"                                                        const adjustTextSize = () => {\n" +
+"                                                            const containerHeight = container.offsetHeight;\n" +
+"                                                            const textHeight = text.offsetHeight;\n" +
+"\n" +
+"                                                            text.style.fontSize = 'initial';\n" +
+"                                                            text.style.transform = 'scaleY(4)';\n" +
+"\n" +
+"                                                            while (text.scrollWidth > container.offsetWidth - 22) {\n" +
+"                                                                let fontSize = parseInt(window.getComputedStyle(text).fontSize);\n" +
+"                                                                fontSize -= 2;\n" +
+"                                                                text.style.fontSize = `${fontSize}px`;\n" +
+"                                                            }\n" +
+"\n" +
+"                                                            const newHeight = containerHeight / textHeight;\n" +
+"                                                            text.style.transform = `scaleY(${newHeight + 0.7})`;\n" +
+"                                                        };\n" +
+"\n" +
+"                                                        adjustTextSize();\n" +
+"                                                        window.addEventListener('resize', adjustTextSize);\n" +
+"                                                    });\n" +
 "\n" +
 "\n" +
 "\n" +
-                 "</main>"
-                 + "<footer>\n" +
-"    &copy; Árlisson Alves da Silva Silveira 2023.\n" +
-"</footer>\n" +
+"                                                    const profileDescs = document.querySelectorAll('.profile_desc');\n" +
+"                                                    let maxHeight = 0;\n" +
+"\n" +
+"                                                    profileDescs.forEach((desc) => {\n" +
+"                                                        const text = desc.querySelector('.profile-desc');\n" +
+"                                                        const textHeight = text.clientHeight;\n" +
+"\n" +
+"                                                        if (textHeight > maxHeight) {\n" +
+"                                                            maxHeight = textHeight;\n" +
+"                                                        }\n" +
+"                                                    });\n" +
+"\n" +
+"                                                    profileDescs.forEach((desc) => {\n" +
+"                                                        desc.style.height = `${maxHeight + 30}px`;\n" +
+"                                                    });\n" +
+"\n" +
+"\n" +
+"\n" +
+"\n" +
+"                                                </script>\n" +
+"\n" +
+"    </main>\n" +
+"    <footer>\n" +
+"        &copy; Árlisson Alves da Silva Silveira 2023.\n" +
+"        reservados.\n" +
+"    </footer>\n" +
 "</body>\n" +
-
+"\n" +
 "\n" +
 "</html>");
         return null;
