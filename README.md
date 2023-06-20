@@ -20,6 +20,11 @@ O trabalho foi uma oportunidade para aplicar os conhecimentos teóricos adquirid
 
 No final, o resultado obtido foi um compilador eficiente e robusto, capaz de receber descrições de cartas Yu-Gi-Oh! e gerar o código HTML correspondente, possibilitando a visualização das informações das cartas em um formato adequado para exibição em um navegador web.
 
+# IMPORTANTE!
+#### A versão do java utilizada na construção do projeto é:
+- java version "20.0.1" 2023-04-18
+Java(TM) SE Runtime Environment (build 20.0.1+9-29)
+
 ## Sobre a linguagem
 
 A linguagem desenvolvida é bem simples, é uma linguagem de descrição, não é possível realizaar operações matemátcas, nem comparações, ou outras operações lógicas. A ideia é que o usuário apenas descreva as especificações de uma carta de Yu-Gi-Oh! e a partiri disso, a carta seja gerada como saída em um arquivo HTML. Um exemplo de como a línguagem foi construída pode ser encontrado aqui -> [Clique aqui](https://youtube.com/shorts/n0RNu00eUxw?feature=share). Casso o link anterior não tenha te levado para o lugar certo, tente esse: [Parser.g4](https://github.com/arlisson/Compiladores/blob/main/Yugioh_Parser/src/main/antlr4/br/edu/iff/ec/compiladores/yugioh_parser/Parser.g4)
