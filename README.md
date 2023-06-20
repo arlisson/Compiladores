@@ -41,7 +41,7 @@ A linguagem desenvolvida é bem simples, é uma linguagem de descrição, não �
 
 #### Uma carta de magia/armadilha é semelhante a uma carta de monstro, porém não possui nível, nem tipo, nem pontos de ataque ou defesa. Além disso seu atributo é fixo, e não varia como o de um monstro.
 
-## Regras da linguagem
+## Exemplo da linguagem
 
 Como dito anteriormente a linguagem é uma linguagem de definição, mas mesmo assim não está isenta de regras. *Não se esqueça do ';' no final de cada linha de comando.*
 ### Declaração de cartas
@@ -72,6 +72,11 @@ Como dito anteriormente a linguagem é uma linguagem de definição, mas mesmo a
 	DESCRICAO: "Descrição da carta";
 
 	IMAGEM: "reveladora.jpg";
+
+## Como utilizar a linguagem
+
+Um exemplo de código funcional pode ser encontrado ao lado, ou no aqui: [Exemplo_codigo.txt](https://github.com/arlisson/Compiladores/blob/main/Exemplo_codigo.txt). Para rodar o código baixe as pastas **[Yugioh](https://github.com/arlisson/Compiladores/tree/main/Yugioh)** e **[Yugioh_Parser](https://github.com/arlisson/Compiladores/tree/main/Yugioh_Parser)**, que estão presentes ao lado.
+
 
 
 
