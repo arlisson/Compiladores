@@ -75,7 +75,15 @@ Como dito anteriormente a linguagem é uma linguagem de definição, mas mesmo a
 
 ## Como utilizar a linguagem
 
-Um exemplo de código funcional pode ser encontrado ao lado, ou no aqui: [Exemplo_codigo.txt](https://github.com/arlisson/Compiladores/blob/main/Exemplo_codigo.txt). Para rodar o código baixe as pastas **[Yugioh](https://github.com/arlisson/Compiladores/tree/main/Yugioh)** e **[Yugioh_Parser](https://github.com/arlisson/Compiladores/tree/main/Yugioh_Parser)**, que estão presentes ao lado.
+Um exemplo de código funcional pode ser encontrado ao lado, ou no aqui: [Exemplo_codigo.txt](https://github.com/arlisson/Compiladores/blob/main/Exemplo_codigo.txt). Para rodar o código baixe as pastas **[Yugioh](https://github.com/arlisson/Compiladores/tree/main/Yugioh)** e **[Yugioh_Parser](https://github.com/arlisson/Compiladores/tree/main/Yugioh_Parser)**, que estão presentes ao lado. Lembrando que a versão do Java deve ser a ***java version "20.0.1" 2023-04-18
+Java(TM) SE Runtime Environment (build 20.0.1+9-29)***.
+
+Com as pastas baixadas no computador, siga o caminho: **Yugioh_Parser/target/Yugioh_Parser-1.0-SNAPSHOT-jar-with-dependencies.jar**, esse arquivo é o programa já compilado, caso queira utilize o arquivo de exemplo de código para executar a primeira vez.
+
+## Executando o programa
+
+Abra o prompt de comandos do windows verifique a versão do Java utilizando *java -version*, caso seja uma versão diferente da **20.0.1**, instale a versão mencionada. Após ter o java devidamente atualizado, digite no prompt de comando java -jar (diretório completo do arquivo: Yugioh_Parser-1.0-SNAPSHOT-jar-with-dependencies.jar) (diretório completo do arquivo: Exemplo_codigo.txt) (diretório completo do arquivo: saida.HTML)
+
 
 
 
