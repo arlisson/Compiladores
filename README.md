@@ -38,26 +38,26 @@ A linguagem desenvolvida é bem simples, é uma linguagem de descrição, não �
 
 ## Regras da linguagem
 
-Como dito anteriormente a linguagem é uma linguagem de definição, mas mesmo assim não está isenta de regras.
+Como dito anteriormente a linguagem é uma linguagem de definição, mas mesmo assim não está isenta de regras. *Não se esqueça do ';' no final de cada linha de comando.*
 ### Declaração de cartas
 #### Carta de Monstro
-- CARTA-MONSTRO: TIPO-DO-MONSTRO(SEMPR EEM LETRAS MAIÚSCULAS); /*não se esqueça do ';' no final de cada linha de comando*/
+- CARTA-MONSTRO: TIPO-DO-MONSTRO(SEMPR EEM LETRAS MAIÚSCULAS); 
   
-	NOME: "Nome do monstro" (sempre entre aspas duplas); /*não se esqueça do ';' no final de cada linha de comando*/
+	NOME: "Nome do monstro" (sempre entre aspas duplas); 
 
-	LEVEL: (um número inteiro maior do que 0 e menor ou igual a 12); /*não se esqueça do ';' no final de cada linha de comando*/
+	LEVEL: (um número inteiro maior do que 0 e menor ou igual a 12); 
 
-	ATRIBUTO: ATRIBUTO DO MONSTRO (UM DOS CINCO ATRIBUTOS POSSÍVEIS, SEMPRE ME MAIÚSCULO); /*não se esqueça do ';' no final de cada linha de comando*/
+	ATRIBUTO: ATRIBUTO DO MONSTRO (UM DOS CINCO ATRIBUTOS POSSÍVEIS, SEMPRE ME MAIÚSCULO); 
 
-	TIPO: DRAGÃO (UM DOS MUITOS TIPOS POSSÍVEIS, SEMPRE EM MAIÚSUCULO);	/*não se esqueça do ';' no final de cada linha de comando*/
+	TIPO: DRAGÃO (UM DOS MUITOS TIPOS POSSÍVEIS, SEMPRE EM MAIÚSUCULO);	
 
-	ATAQUE: 3000 (Um número inteiro maior ou igual a 0 e menor ou igual a 999999); /*não se esqueça do ';' no final de cada linha de comando*/
+	ATAQUE: 3000 (Um número inteiro maior ou igual a 0 e menor ou igual a 999999); 
 
-	DEFESA: 2500 (Um número inteiro maior ou igual a 0 e menor ou igual a 999999); /*não se esqueça do ';' no final de cada linha de comando*/
+	DEFESA: 2500 (Um número inteiro maior ou igual a 0 e menor ou igual a 999999); 
 
-	DESCRICAO: "Descrição da carta" (sempre entre aspas duplas); /*não se esqueça do ';' no final de cada linha de comando*/
+	DESCRICAO: "Descrição da carta" (sempre entre aspas duplas); 
 
-	IMAGEM: "imagem.jpg" (sempre entre aspas duplas); /*não se esqueça do ';' no final de cada linha de comando*/
+	IMAGEM: "imagem.jpg" (uma única palavra, seguida de .jpg|.png, sempre entre aspas duplas); 
 
 #### Carta mágica/aramdilha
 - CARTA-MAGICA: MAGIA-NORMAL;
