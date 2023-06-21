@@ -98,3 +98,46 @@ Como já foi dito anteriormente, a linguagem é muito simples, e é descritiva, 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Vou me esonder nesse github, o Homem-Aranha não vai me achar aqui
+![shocker](https://github.com/arlisson/Compiladores/blob/main/assets/shocker.jpg)
