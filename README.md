@@ -91,6 +91,10 @@ Abra o prompt de comandos do windows verifique a versão do Java utilizando *jav
 java -jar C:\Users\T-GAMER\Documents\NetBeansProjects\Yugioh_Parser\target\Yugioh_Parser-1.0-SNAPSHOT-jar-with-dependencies.jar C:\Users\T-GAMER\Desktop\Linguagem_yugioh.txt D:\Documentos\Aprendizado\Projetos\HTML\Yugioh\Saida.HTML
 ```
 
+## Ultimos avisos
+Como já foi dito anteriormente, a linguagem é muito simples, e é descritiva, então, alguns erros podem ocorrer.
+### ERROS
+- Caso você esqueça de uma linha de declarações, dependendo da linha, pode ser que o código execute, mas a carta não seja criada. Dependendo de qual linha você esquecer pode ser que nenhuma carta seja criada. Tabém existe o caso de todas as cartas declaradas antes do erro serem criadas e todas a partir do erro não.
 
 
 
