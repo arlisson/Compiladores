@@ -74,16 +74,16 @@ Como dito anteriormente a linguagem é uma linguagem de definição, mas mesmo a
 	IMAGEM: "reveladora.jpg";
 
 ## Opções de escolha
-###Opções para cada declaração 
+### Opções para cada declaração 
+#### Opções de cartas de monstro 
 - CARTA-MONSTRO: MONSTRO-NORMAL| MONSTRO-EFEITO| MONSTRO-XYZ|MONSTRO-XYZ-EFEITO| MONSTRO-RITUAL|MONSTRO-RITUAL-EFEITO
             | MONSTRO-FUSAO|MONSTRO-FUSAO-EFEITO| MONSTRO-SINCRO|MONSTRO-SINCRO-EFEITO;
-  
-- NOME: "Nome do monstro" (sempre entre aspas duplas);
-  
-- LEVEL: (um número inteiro maior do que 0 e menor ou igual a 12); 
-
+#### Opções de cartas mágicas
+-CARTA-MAGICA: MAGIA-NORMAL| MAGIA-CONTINUA| MAGIA-EQUIPAMENTO| MAGIA-CAMPO| MAGIA-RITUAL|
+             ARMADILHA-NORMAL|ARMADILHA-CONTINUA| ARMADILHA-RESPOSTA|MAGIA-RAPIDA; 
+#### Opções de atributos de monstros
 - ATRIBUTO: TREVAS|FOGO|LUZ|VENTO|AGUA|TERRA|DIVINO; 
-
+#### Opções de tipos de monstros
 - TIPO:AQUA| MAGO| DEMÔNIO| DINOSSAURO|NORMAL|EFEITO|DRAGÃO|
       FADA|BESTA|BESTA-GUERREIRA|BESTA-ALADA|BESTA-DIVINA|GUERREIRO|
       INSETO|MÁQUINA|PEIXE|PLANTA|PSÍQUICO|PIRO|RÉPTIL|ROCHA|SERPENTE-MARINHA|
@@ -94,13 +94,6 @@ Como dito anteriormente a linguagem é uma linguagem de definição, mas mesmo a
       PIRO/REGULADOR | RÉPTIL/REGULADOR | ROCHA/REGULADOR | SERPENTE-MARINHA/REGULADOR |TROVÃO/REGULADOR | WYRM/REGULADOR |
       ZUMBI/REGULADOR | CIBERSO/REGULADOR | FUSÃO/REGULADOR | XYZ/REGULADOR;	
 
-- ATAQUE: 3000 (Um número inteiro maior ou igual a 0 e menor ou igual a 999999); 
-
-- DEFESA: 2500 (Um número inteiro maior ou igual a 0 e menor ou igual a 999999); 
-
-- DESCRICAO: "Descrição da carta" (sempre entre aspas duplas); 
-
-- IMAGEM: "imagem.jpg" (uma única palavra, seguida de .jpg|.png, sempre entre aspas duplas); 
 
 
 ## Como utilizar a linguagem
