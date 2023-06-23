@@ -43,7 +43,7 @@ A linguagem desenvolvida é bem simples, é uma linguagem de descrição, não �
 
 ## Exemplo da linguagem
 
-Como dito anteriormente a linguagem é uma linguagem de definição, mas mesmo assim não está isenta de regras. *Não se esqueça do ';' no final de cada linha de comando.*
+Como dito anteriormente a linguagem é uma linguagem de definição, mas mesmo assim não está isenta de regras. *Não se esqueça do ; no final de cada linha de comando.*
 ### Declaração de cartas
 #### Carta de Monstro
 - CARTA-MONSTRO: TIPO-DO-MONSTRO(SEMPR EEM LETRAS MAIÚSCULAS); 
@@ -72,6 +72,36 @@ Como dito anteriormente a linguagem é uma linguagem de definição, mas mesmo a
 	DESCRICAO: "Descrição da carta";
 
 	IMAGEM: "reveladora.jpg";
+
+## Opções de escolha
+###Opções para cada declaração 
+- CARTA-MONSTRO: MONSTRO-NORMAL| MONSTRO-EFEITO| MONSTRO-XYZ|MONSTRO-XYZ-EFEITO| MONSTRO-RITUAL|MONSTRO-RITUAL-EFEITO
+            | MONSTRO-FUSAO|MONSTRO-FUSAO-EFEITO| MONSTRO-SINCRO|MONSTRO-SINCRO-EFEITO;
+  
+- NOME: "Nome do monstro" (sempre entre aspas duplas);
+  
+- LEVEL: (um número inteiro maior do que 0 e menor ou igual a 12); 
+
+- ATRIBUTO: TREVAS|FOGO|LUZ|VENTO|AGUA|TERRA|DIVINO; 
+
+- TIPO:AQUA| MAGO| DEMÔNIO| DINOSSAURO|NORMAL|EFEITO|DRAGÃO|
+      FADA|BESTA|BESTA-GUERREIRA|BESTA-ALADA|BESTA-DIVINA|GUERREIRO|
+      INSETO|MÁQUINA|PEIXE|PLANTA|PSÍQUICO|PIRO|RÉPTIL|ROCHA|SERPENTE-MARINHA|
+      TROVÃO|WYRM|ZUMBI|DEUS-CRIADOR|CIBERSO|FUSÃO|XYZ|SINCRO|AQUA/REGULADOR|
+      MAGO/REGULADOR|DEMÔNIO/REGULADOR | DINOSSAURO/REGULADOR |DRAGÃO/REGULADOR |
+      FADA/REGULADOR | BESTA/REGULADOR | BESTA-GUERREIRA/REGULADOR | BESTA-ALADA/REGULADOR |
+      GUERREIRO/REGULADOR | INSETO/REGULADOR | MÁQUINA/REGULADOR | PEIXE/REGULADOR | PLANTA/REGULADOR | PSÍQUICO/REGULADOR | 
+      PIRO/REGULADOR | RÉPTIL/REGULADOR | ROCHA/REGULADOR | SERPENTE-MARINHA/REGULADOR |TROVÃO/REGULADOR | WYRM/REGULADOR |
+      ZUMBI/REGULADOR | CIBERSO/REGULADOR | FUSÃO/REGULADOR | XYZ/REGULADOR;	
+
+- ATAQUE: 3000 (Um número inteiro maior ou igual a 0 e menor ou igual a 999999); 
+
+- DEFESA: 2500 (Um número inteiro maior ou igual a 0 e menor ou igual a 999999); 
+
+- DESCRICAO: "Descrição da carta" (sempre entre aspas duplas); 
+
+- IMAGEM: "imagem.jpg" (uma única palavra, seguida de .jpg|.png, sempre entre aspas duplas); 
+
 
 ## Como utilizar a linguagem
 
