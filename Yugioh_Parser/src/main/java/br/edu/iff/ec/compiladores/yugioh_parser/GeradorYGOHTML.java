@@ -441,7 +441,7 @@ public class GeradorYGOHTML extends ParserBaseVisitor<Void>{
 "        }\n" +
 "\n" +
 "        .profile_desc h4 {\n" +
-"            font-size: 12px;\n" +
+"            font-size: 10.7px;\n" +
 "            font-weight: bold;\n" +
 "            position: relative;\n" +
 "        }\n" +
