@@ -33,7 +33,7 @@ A linguagem desenvolvida é bem simples, é uma linguagem de descrição, não �
 ### Exemplo de uma carta de monstro
 ![Atributos de uma carta de monstro](https://github.com/arlisson/Compiladores/blob/main/assets/carta.png)
 
-#### Existem alguns monstros especiais, como os monstros XYZ, que possuem rank no lugar do nível, mas é apenas uma mudança visual e gramátical.
+#### Existem alguns monstros especiais, como os monstros XYZ, que possuem rank no lugar do nível, mas é apenas uma mudança visual e gramatical.
 
 
 ### Exemplo de uma carta de magia/armadilha
